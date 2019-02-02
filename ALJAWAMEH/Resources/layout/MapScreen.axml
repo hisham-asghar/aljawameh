@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<android.support.v7.widget.Toolbar  
+		android:id="@+id/toolbar"  
+		android:layout_width="match_parent"  
+		android:layout_height="wrap_content"  
+		android:minHeight="?attr/actionBarSize"  
+		android:background="#33B86C"  
+		app:popupTheme="@style/ThemeOverlay.AppCompat.Light"  
+		app:layout_scrollFlags="scroll|enterAlways" />  
+    <android.support.v4.widget.DrawerLayout
+android:id="@+id/drawer_layout"
+android:layout_height="match_parent"
+android:background="#ffffff"
+android:fitsSystemWindows="true"
+android:layout_width="match_parent">
+	<RelativeLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+   <LinearLayout
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:orientation="horizontal"
+	  android:background="@android:color/transparent">
+    <ImageView
+        android:id="@+id/imgDrawer"
+		android:background="@drawable/controlpressed"
+		android:src="@drawable/hamburger"
+		android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:background="@android:color/transparent"
+						android:layout_marginLeft="0dp">
+							<fragment
+							android:id="@+id/place_autocomplete"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							class="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+							/>
+					</RelativeLayout>
+  </LinearLayout>
+
+		<RelativeLayout
+	       	 android:layout_height="match_parent"
+		     android:layout_width="match_parent"
+		     android:layout_marginTop="0dp"
+>
+	<RelativeLayout
+	       	 android:layout_height="match_parent"
+		     android:layout_width="match_parent"
+		android:layout_marginBottom="0dp"
+		>
+  <fragment
+     android:id="@+id/googlemap"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     class="com.google.android.gms.maps.MapFragment" />
+		</RelativeLayout>
+					<android.support.v7.widget.RecyclerView
+				android:id="@+id/recycler"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:scrollbars="horizontal"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_alignParentBottom="true"
+			/>
+	
+				</RelativeLayout>
+</LinearLayout>	
+</RelativeLayout>
+<android.support.design.widget.NavigationView
+android:id="@+id/nav_view"
+android:layout_height="match_parent"
+android:layout_width="300dp"
+android:background="#ffffff"
+android:layout_gravity="start"
+android:fitsSystemWindows="true"/>
+</android.support.v4.widget.DrawerLayout>
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		       
+	
+	
+
+

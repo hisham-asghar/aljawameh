@@ -1,0 +1,77 @@
+<resources>
+
+  <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo"></style>
+  <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#2196F3</item>
+    <item name="colorPrimaryDark">#1976D2</item>
+  </style>
+  <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+    <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+  </style>
+  <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <item name="android:height">45dp</item>
+    <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    <item name="android:subtitleTextStyle">@style/MyTheme.ActionBar.SubtitleTextStyle</item>
+    <item name="android:logo">@drawable/actionbar_space_between_icon_and_title</item>
+  </style>
+  <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+
+    <!--<item name="android:textColor">#ff4949</item>-->
+  </style>
+  <style name="MyTheme.ActionBar.SubtitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+    <!--<item name="android:textColor">#ff4949</item>-->
+    <item name="android:textSize">11dp</item>
+    <item name="android:singleLine">false</item>
+  </style>
+  <style name="spinner_style">
+    <item name="android:background">@drawable/gradient_spinner</item>
+    <item name="android:layout_marginRight">0dp</item>
+    <item name="android:paddingLeft">0dp</item>
+    <item name="android:paddingRight">0dp</item>
+    <item name="android:paddingTop">5dp</item>
+    <item name="android:paddingBottom">5dp</item>
+    <item name="android:popupBackground">#DFFFFFFF</item>
+  </style>
+
+  <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+    <item name="tabTextColor">#707070</item>
+    <item name="tabSelectedTextColor">#00A859</item>
+    <item name="tabIndicatorColor">#00A859</item>
+    <item name="android:textStyle">bold</item>
+    <item name="tabTextAppearance">@style/TextAppearance.AppCompat.Subhead.Inverse</item>
+  </style>
+  <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- API 21 theme customizations can go here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/accent_material_light</item>
+    <item name="windowActionModeOverlay">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:windowTranslucentStatus">true</item>
+  </style>  
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+ 
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="android:windowNoTitle">true</item>
+      <item name="android:windowActionBar">false</item>
+      <item name="android:windowFullscreen">true</item>
+      <item name="android:windowContentOverlay">@null</item>
+    </style>
+  
+</resources>

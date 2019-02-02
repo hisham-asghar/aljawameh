@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+	android:background="#ffffff">
+	<ImageView
+        android:src="@drawable/Mosque"
+        android:id="@+id/imgLoginBar"
+		android:layout_marginTop="0dp"
+		android:layout_gravity="center_horizontal"
+        android:layout_height="80dp"
+        android:layout_width="80dp"/>
+		 <LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="150dp"
+			android:orientation="vertical"
+			android:layout_weight="6">
+		<TextView
+            android:id="@+id/TextLocationTitle"
+			android:textStyle="bold"
+            android:layout_width="match_parent"
+			android:text=""
+            android:layout_height="20dp"
+			android:textAlignment="gravity"
+			android:gravity="center"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:drawableLeft="@android:color/holo_green_light" />
+        <TextView
+            android:id="@+id/TextLocation"
+            android:layout_width="match_parent"
+			android:text=""
+            android:layout_height="wrap_content"
+			android:textAlignment="gravity"
+			android:gravity="center"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:drawableLeft="@android:color/holo_green_light" />
+    </LinearLayout>
+</LinearLayout>

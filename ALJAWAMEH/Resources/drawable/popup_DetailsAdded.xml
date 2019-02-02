@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:background="@drawable/bordercardmymosques"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <RelativeLayout
+      android:layout_height="fill_parent"
+      android:layout_width="fill_parent"
+      android:alpha="1"
+      android:padding="5dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="10dp">
+    <TextView
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+      android:layout_marginTop="10dp"
+			android:layout_marginRight="10dp"
+     android:layout_centerInParent="true"
+     android:textColor="#bbbbbb"
+     android:textSize="28dp"
+     android:text="Mosque information has been added sucessfully" />
+    <ImageView
+    android:id="@+id/imgCloseFile2"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:fitsSystemWindows="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:src="@drawable/iconcancel"
+    android:layout_centerInParent="true"/>
+  </RelativeLayout>
+  
+  
+  
+</LinearLayout>

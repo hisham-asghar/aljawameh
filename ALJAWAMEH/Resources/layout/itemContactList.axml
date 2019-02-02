@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	card_view:cardBackgroundColor="@android:color/transparent"
+	card_view:cardElevation="0dp"
+	card_view:cardCornerRadius="10dp"
+    android:layout_height="100dp">
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/bordercardmymosques"
+	android:clickable="true"
+	android:layout_marginRight="20dp"
+	android:layout_marginTop="20dp"
+	android:layout_marginBottom="0dp"
+	android:padding="0dp"
+	android:layout_marginLeft="20dp"
+	android:descendantFocusability="blocksDescendants">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="horizontal">
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="10dp"
+	android:layout_marginTop="-5dp"
+    android:descendantFocusability="blocksDescendants">
+		  
+				 <refractored.controls.CircleImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_image"
+    android:layout_width="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="0dp"
+    android:layout_height="wrap_content"
+    android:src="@drawable/iconcontactlistprofile"
+    app:civ_border_width="2dp"
+    app:civ_border_color="#FF000000"/>
+				
+	</RelativeLayout>
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:descendantFocusability="blocksDescendants">
+	  <TextView
+           android:text="Jamia Masjid"
+           android:layout_marginLeft="5dp"
+			android:drawableLeft="@drawable/iconcontactlistphone"
+           android:drawablePadding="5dp"
+					android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="0dp"
+		   android:layout_marginTop="20dp"
+           android:textAlignment="gravity"
+           android:gravity="left"
+           android:layout_alignParentLeft="true"
+           android:textSize="14dp"
+           android:id="@+id/txtAddress"
+           android:textColor="#bbbbbb" />
+      <TextView
+          android:text="John Doe"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="0dp"
+		  android:layout_marginTop="5dp"
+          android:textAlignment="gravity"
+          android:layout_marginLeft="5dp"
+	  	  android:layout_marginBottom="5dp"
+          android:gravity="left"
+          android:layout_alignParentLeft="true"
+          android:textSize="12dp"
+          android:id="@+id/txtLatLng"
+          android:textColor="#bbbbbb" />
+				<RelativeLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_alignParentRight="true"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="10dp"
+		    android:descendantFocusability="blocksDescendants">
+		   <ImageView
+				android:id="@+id/imgNearByMosque"
+				android:text="Register"
+				android:src="@drawable/iconstar"
+				android:layout_centerInParent="true"
+			    android:scaleType="centerCrop"
+				android:adjustViewBounds="true"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent" />
+	</RelativeLayout>
+
+</RelativeLayout>
+			</LinearLayout>
+</RelativeLayout>
+	</android.support.v7.widget.CardView>

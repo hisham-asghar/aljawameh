@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:descendantFocusability="blocksDescendants">
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="0dp"
+    android:descendantFocusability="blocksDescendants">
+		   <ImageView
+				android:id="@+id/imgNearByMosque"
+				android:text="Register"
+				android:src="@drawable/mosque"
+				android:layout_height="80dp"
+				android:layout_width="80dp" />
+	</RelativeLayout>
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="80dp"
+    android:descendantFocusability="blocksDescendants">
+	  <TextView
+           android:text="Address : 26 Crescent Town Near Multan Chungi Stop Multan Road Lahore"
+           android:layout_marginLeft="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="0dp"
+           android:layout_marginTop="0dp"
+           android:textAlignment="gravity"
+           android:gravity="left"
+           android:layout_alignParentLeft="true"
+           android:textSize="14dp"
+           android:id="@+id/txtAddress"
+           android:textColor="#000000" />
+      <TextView
+          android:text="LatLng : 23.5, 77"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="0dp"
+          android:textAlignment="gravity"
+          android:layout_marginLeft="5dp"
+	  	  android:layout_marginBottom="5dp"
+          android:gravity="left"
+          android:layout_alignParentLeft="true"
+		  android:layout_alignParentBottom="true"
+          android:textSize="12dp"
+          android:id="@+id/txtLatLng"
+          android:textColor="#666666" />
+</RelativeLayout>
+</RelativeLayout>

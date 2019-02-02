@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    android:id="@+id/linear_header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+    </RelativeLayout>
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#ffffff">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollauthentication"
+            android:background="#ffffff"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            android:scrollbarStyle="insideInset"
+            android:isScrollContainer="false">
+            <RelativeLayout
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TableLayout
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*"
+                    android:shrinkColumns="*"
+                    android:layout_marginLeft="0dp"
+                    android:background="@android:color/white">
+					  <TableRow
+                       android:layout_marginTop="0dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+								<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+									<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+										<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+			                android:layout_centerInParent="true"
+							android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+											<ImageView
+								android:id="@+id/imgNearByMosque"
+								android:text="Register"
+								android:src="@drawable/iconmosqueoverviewlocation"
+								android:layout_alignParentLeft="true"
+								android:layout_marginTop="5dp"
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content" />
+
+											 <TextView
+									  android:text="6.4 KM"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+											 <TextView
+									  android:text="Distance"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:layout_marginTop="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+										</RelativeLayout>
+
+
+										</RelativeLayout>
+
+								<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+							<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+			                android:layout_centerInParent="true"
+							android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+											<ImageView
+								android:id="@+id/imgNearByMosque"
+								android:text="Register"
+								android:src="@drawable/iconmosqueoverviewstatus"
+								android:layout_alignParentLeft="true"
+								android:layout_marginTop="5dp"
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content" />
+
+											 <TextView
+									  android:text="Verified!"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+											 <TextView
+									  android:text="Status"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:layout_marginTop="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+										</RelativeLayout>
+
+										</RelativeLayout>
+
+
+									<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+						<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+			                android:layout_centerInParent="true"
+							android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+											<ImageView
+								android:id="@+id/imgNearByMosque"
+								android:text="Register"
+								android:src="@drawable/iconmosqueoverviewcapacity"
+								android:layout_alignParentLeft="true"
+								android:layout_marginTop="5dp"
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content" />
+
+											 <TextView
+									  android:text="Capacity"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+											 <TextView
+									  android:text="500"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:layout_marginTop="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+										</RelativeLayout>
+
+										</RelativeLayout>
+									</LinearLayout>
+
+
+
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+
+					<TableRow
+                       android:layout_marginTop="0dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+								<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+									<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+									<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+			                android:layout_centerInParent="true"
+							android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+								<ImageView
+								android:id="@+id/imgNearByMosque"
+								android:text="Register"
+								android:src="@drawable/iconmosqueoverviewcontact"
+								android:layout_alignParentLeft="true"
+								android:layout_marginTop="5dp"
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content" />
+
+											 <TextView
+									  android:text="Contact"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+											 <TextView
+									  android:text="Mr Jon De"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:layout_marginTop="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+										</RelativeLayout>
+
+
+										</RelativeLayout>
+
+								<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+						<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+			                android:layout_centerInParent="true"
+							android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+												<ImageView
+								android:id="@+id/imgNearByMosque"
+								android:text="Register"
+								android:src="@drawable/iconmosqueoverviewsect"
+								android:layout_alignParentLeft="true"
+								android:layout_marginTop="5dp"
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content" />
+
+											 <TextView
+									  android:text="Sect"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+											 <TextView
+									  android:text="Muslim"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:layout_marginTop="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+										</RelativeLayout>
+
+										</RelativeLayout>
+
+
+									<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+						<RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+			                android:layout_centerInParent="true"
+							android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+											<ImageView
+								android:id="@+id/imgNearByMosque"
+								android:text="Register"
+								android:src="@drawable/iconmosqueoverviewnamaztiming"
+								android:layout_alignParentLeft="true"
+								android:layout_marginTop="5dp"
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content" />
+
+											 <TextView
+									  android:text="Namaz"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+											 <TextView
+									  android:text="Timings"
+									  android:layout_width="wrap_content"
+									  android:layout_height="wrap_content"
+									  android:padding="0dp"
+									  android:textAlignment="gravity"
+									  android:layout_marginLeft="25dp"
+									  android:layout_marginTop="25dp"
+									  android:gravity="left"
+									  android:layout_alignParentLeft="true"
+									  android:textSize="15dp"
+									  android:id="@+id/txtStatus"
+									  android:textColor="#bbbbbb" />
+										</RelativeLayout>
+
+										</RelativeLayout>
+									</LinearLayout>
+
+
+
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+
+
+					<TableRow
+                       android:layout_marginTop="0dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+							android:background="#ff4949"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" >
+
+
+
+
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+
+
+                </TableLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </TableLayout>
+</LinearLayout>

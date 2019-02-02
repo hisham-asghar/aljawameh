@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:background="@drawable/bordercardmymosques"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+  <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dip"
+      android:textColor="#3d8af7"
+      android:text="Add Name and Phone Number" />
+  <RelativeLayout
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:background="@drawable/borderbottom"
+             android:id="@+id/layoutRemarks" >
+    <RelativeLayout
+				  android:layout_height="50dp"
+          android:layout_width="wrap_content"
+				  android:clickable="true"
+				  android:layout_marginLeft="0dp"
+          android:layout_alignParentLeft="true" >
+      <ImageView
+      android:id="@+id/imgNearByMosque"
+      android:src="@drawable/iconContactName"
+      android:layout_centerInParent="true"
+      android:adjustViewBounds="true"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/EtPopUpContactName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="match_parent"
+				android:hint=" Enter Name"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        android:minHeight="40dp"
+        android:layout_weight="1" />
+  </RelativeLayout>
+
+  <RelativeLayout
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:background="@drawable/borderbottom"
+             android:id="@+id/layoutRemarks" >
+    <RelativeLayout
+				  android:layout_height="50dp"
+          android:layout_width="wrap_content"
+				  android:clickable="true"
+				  android:layout_marginLeft="0dp"
+          android:layout_alignParentLeft="true" >
+      <ImageView
+      android:id="@+id/imgNearByMosque"
+      android:src="@drawable/iconContactPhone"
+      android:layout_centerInParent="true"
+      android:adjustViewBounds="true"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/EtPopUpContactNumber"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="match_parent"
+				android:hint=" Enter Phone"
+        android:inputType="phone"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        android:minHeight="40dp"
+        android:layout_weight="1" />
+  </RelativeLayout>
+  <RelativeLayout
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/layoutMedicalCertificate" >
+    <Button
+        android:id="@+id/btnSaveContact"
+        android:text="Save"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:textColor="#ffffff"
+					android:background="@drawable/borderbutton"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"/>
+  </RelativeLayout>
+</LinearLayout>

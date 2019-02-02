@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    android:id="@+id/linear_header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+    </RelativeLayout>
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#ffffff">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollauthentication"
+            android:background="#ffffff"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            android:scrollbarStyle="insideInset"
+            android:isScrollContainer="false">
+            <RelativeLayout
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+                <TableLayout
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*"
+                    android:shrinkColumns="*"
+                    android:layout_marginLeft="0dp"
+                    android:background="@android:color/white">
+					  <TableRow
+                       android:layout_marginTop="10dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="70dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+								android:paddingBottom="20dp"
+							android:background="@drawable/borderbottom"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+							    <TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="Change Language"
+									android:textColor="#bbbbbb"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="English US"
+									android:layout_marginTop="20dp"
+									android:textColor="#cccccc"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<RelativeLayout
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+								 android:layout_alignParentRight="true"
+									>
+						 <ImageView
+				android:id="@+id/imgNearByMosque"
+				android:text="Register"
+				android:src="@drawable/iconlanguage"
+				android:adjustViewBounds="true"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent" />
+
+							</RelativeLayout>
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+					  <TableRow
+                       android:layout_marginTop="10dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+								android:paddingBottom="20dp"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+								android:paddingBottom="20dp"
+							android:background="@drawable/borderbottom"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+							    <TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="Sect"
+									android:textColor="#bbbbbb"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="Ahle-Sunnat, Ahle-Hadees"
+									android:layout_marginTop="20dp"
+									android:textColor="#cccccc"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<RelativeLayout
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+								 android:layout_alignParentRight="true"
+									>
+						 <CheckBox
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+							
+									/>
+
+							</RelativeLayout>
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+					  <TableRow
+                       android:layout_marginTop="10dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+								android:paddingBottom="20dp"
+							android:background="@drawable/borderbottom"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+							    <TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="Email Notification"
+									android:textColor="#bbbbbb"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="Yes"
+									android:layout_marginTop="20dp"
+									android:textColor="#cccccc"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<RelativeLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+								 android:layout_alignParentRight="true"
+									>
+						 <Switch
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+							
+									/>
+
+							</RelativeLayout>
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+					  <TableRow
+                       android:layout_marginTop="10dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="0dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+								android:paddingBottom="20dp"
+							android:background="@drawable/borderbottom"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+							    <TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="Push Notification"
+									android:textColor="#bbbbbb"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="OFF"
+									android:layout_marginTop="20dp"
+									android:textColor="#cccccc"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								<RelativeLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+								 android:layout_alignParentRight="true"
+									>
+						 <Switch
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+							
+									/>
+
+							</RelativeLayout>
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+					  <TableRow
+                       android:layout_marginTop="10dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginLeft="0dp"
+                       android:layout_marginRight="0dp"
+                       android:id="@+id/optionsheader">
+						<LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+						android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="500dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+							    <TextView
+                          android:id="@+id/txtBranchLabel"
+                          android:text="Log Out"
+						  android:textColor="#3d8af7"
+   						  android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"
+                           
+                          android:layout_width="wrap_content"
+                          android:textSize="15dp"
+                          android:layout_weight="2" />
+								</RelativeLayout>
+							    <RelativeLayout
+                            android:id="@+id/editEmpEmail"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_width="200dp"
+								android:paddingBottom="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" 
+								>
+							</RelativeLayout>
+                    </LinearLayout>
+                   
+                  </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </TableLayout>
+</LinearLayout>

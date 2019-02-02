@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "654831537975",
+    "firebase_url": "https://xamsignin-befe1.firebaseio.com",
+    "project_id": "xamsignin-befe1",
+    "storage_bucket": "xamsignin-befe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654831537975:android:f8dd7d774d2382a6",
+        "android_client_info": {
+          "package_name": "com.ALJAWAMEH.org"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654831537975-3iecrrjdm7stutaot8ni6dotkt2pav36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ALJAWAMEH.org",
+            "certificate_hash": "b52ba400ecf4ea3ec035d82311d9fbdd8f2b0516"
+          }
+        },
+        {
+          "client_id": "654831537975-g236vmtr43j1ukldsgvhd4h2k03u61c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjEL0H7qF3a5MevPKFsOxJ6TRxX11CfIA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654831537975-g236vmtr43j1ukldsgvhd4h2k03u61c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

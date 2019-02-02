@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:clickable="true"
+	android:background="@drawable/controlpressed"
+	android:id="@+id/ItemCardView"
+    android:layout_height="230dp">
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:id="@+id/ItemMyMosque"
+	android:clickable="true"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"
+		android:padding="5dp"
+		android:layout_marginLeft="10dp">
+	<!--android:background="@drawable/bordercardmymosques"-->
+
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+			<RelativeLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="0dp"
+			android:layout_marginRight="0dp"
+			android:layout_centerInParent="true">
+		    <ImageView
+				android:id="@+id/imgNearByMosque"
+				android:text="Register"
+				android:src="@drawable/badshaimosque"
+				android:scaleType="centerCrop"
+				android:adjustViewBounds="true"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent" />
+		</RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="160dp">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_centerInParent="true"
+				android:weightSum="3">
+				
+			<RelativeLayout
+					android:layout_width="150dp"
+					android:layout_weight="1"
+					android:layout_height="match_parent">
+					<RelativeLayout
+					android:layout_width="25dp"
+					android:layout_weight="1"
+					android:layout_height="25dp">
+						 <ImageView
+					android:id="@+id/imgNearByMosque"
+					android:text="Register"
+					android:src="@drawable/iconfavorite"
+					android:adjustViewBounds="true"
+					android:layout_height="match_parent"
+					android:layout_width="match_parent" />
+						</RelativeLayout>
+					   <TextView
+					  android:text="Masjid Al Bakra"
+					  android:layout_width="150dp"
+					  android:layout_height="wrap_content"
+					  android:padding="0dp"
+					  android:textAlignment="gravity"
+					  android:layout_marginLeft="30dp"
+					  android:gravity="left"
+					  android:layout_alignParentLeft="true"
+					  android:textSize="15dp"
+					  android:id="@+id/txtStatus"
+					  android:textColor="#666666" />
+					</RelativeLayout>
+				<RelativeLayout
+					android:layout_width="100dp"
+					android:layout_weight="1"
+					android:layout_height="match_parent">
+					<RelativeLayout
+					android:layout_width="25dp"
+					android:layout_weight="1"
+					android:layout_height="25dp">
+						 <ImageView
+				android:id="@+id/imgNearByMosque"
+				android:text="Register"
+				android:src="@drawable/iconlocation"
+				android:adjustViewBounds="true"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent" />
+						</RelativeLayout>
+					   <TextView
+					  android:text="1.5 Km"
+					  android:layout_width="150dp"
+					  android:layout_height="wrap_content"
+					  android:padding="0dp"
+					  android:textAlignment="gravity"
+					  android:layout_marginLeft="30dp"
+					  android:gravity="left"
+					  android:layout_alignParentLeft="true"
+					  android:textSize="15dp"
+					  android:id="@+id/txtStatus"
+					  android:textColor="#666666" />
+					</RelativeLayout>
+					<RelativeLayout
+					android:layout_width="100dp"
+					android:layout_weight="1"
+					android:layout_height="match_parent">
+					<RelativeLayout
+					android:layout_width="25dp"
+					android:layout_weight="1"
+					android:layout_height="25dp">
+						 <ImageView
+				android:id="@+id/imgNearByMosque"
+				android:text="Register"
+				android:src="@drawable/iconverified"
+				android:adjustViewBounds="true"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent" />
+						</RelativeLayout>
+					   <TextView
+					  android:text="Verified!"
+					  android:layout_width="150dp"
+					  android:layout_height="wrap_content"
+					  android:padding="0dp"
+					  android:textAlignment="gravity"
+					  android:layout_marginLeft="30dp"
+					  android:gravity="left"
+					  android:layout_alignParentLeft="true"
+					  android:textSize="15dp"
+					  android:id="@+id/txtStatus"
+					  android:textColor="#666666" />
+					</RelativeLayout>
+			</LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>
+	</android.support.v7.widget.CardView>
